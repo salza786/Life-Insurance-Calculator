@@ -194,9 +194,9 @@ namespace Life_Insurance_Calculator
                     if (hours_of_exercise == 0)
                         total *= 1.2;
                     else if (hours_of_exercise >= 3 && hours_of_exercise <= 5)
-                        total /= 1.3;
+                        total *= 0.7;
                     else if (hours_of_exercise >= 6 && hours_of_exercise <= 8)
-                        total /= 1.50;
+                        total *= 0.5;
                     else if (hours_of_exercise >= 9)
                         total *= 1.5;
 
